@@ -12,7 +12,7 @@ public class SpringBootHerokuDemoApplication {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello Docker World";
+        return "Hello Heroku World";
     }
 
     public static void main(String[] args) {
